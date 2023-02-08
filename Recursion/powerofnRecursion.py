@@ -3,7 +3,7 @@ def powerofnRecursion(n, power):
     if power == 0:
         return 1
     elif power == 1:
-        return  n
+        return n
     else:
         return n * powerofnRecursion(n, power - 1)
 
