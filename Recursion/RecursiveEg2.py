@@ -4,5 +4,6 @@ def RecursiveNumber(n):
     else:
         print(f"Progressing n : {n}")
         RecursiveNumber(n - 1)
-        
+
+
 RecursiveNumber(10)

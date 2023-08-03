@@ -1,6 +1,5 @@
-
 class Solution:
-    def DecimalToBinary(self, n, result = ""):
+    def DecimalToBinary(self, n, result=""):
         assert 0 <= n == int(n), "N value should be a postive integer"
         if n == 1:
             return f"1{result}"

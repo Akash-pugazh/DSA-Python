@@ -1,5 +1,4 @@
 def GcdRecursion(a, b):
-
     assert int(a) == a and int(b) == b, "Parameters must be integer"
 
     if a < 0:

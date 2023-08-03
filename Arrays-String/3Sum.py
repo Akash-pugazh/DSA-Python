@@ -25,4 +25,5 @@ def ThreeSum(nums: List[int]) -> List[List[int]]:
                     leftPtr += 1
     return res
 
-print(ThreeSum([-1,0,1,2,-1,-4]))
+
+print(ThreeSum([-1, 0, 1, 2, -1, -4]))

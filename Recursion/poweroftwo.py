@@ -1,5 +1,6 @@
 # Leetcode Problem
 
+
 class Solution:
     def isPowerOfTwo(self, n: int) -> bool:
         if n in [1, 2]:

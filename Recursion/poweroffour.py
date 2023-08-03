@@ -5,9 +5,10 @@ class Solution:
             return True
         else:
             if not n % 4 == 0 or n == 0:
-                return  False
+                return False
             else:
                 return self.isPowerOfFour(int(n / 4))
+
 
 test1 = print(Solution().isPowerOfFour(16))
 test1 = print(Solution().isPowerOfFour(5))

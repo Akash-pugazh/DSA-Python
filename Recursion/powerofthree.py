@@ -1,4 +1,4 @@
-#LeetCode Problem
+# LeetCode Problem
 class Solution:
     def isPowerOfThree(self, n: int) -> bool:
         if n in [1]:
@@ -8,6 +8,7 @@ class Solution:
                 return False
             else:
                 return self.isPowerOfThree(int(n / 3))
+
 
 test1 = Solution().isPowerOfThree(27)
 test2 = Solution().isPowerOfThree(0)

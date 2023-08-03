@@ -6,4 +6,5 @@ def sumOfArr(arr):
         return arr[0]
     return arr[0] + sumOfArr(arr[1:])
 
+
 print(sumOfArr(arr))
