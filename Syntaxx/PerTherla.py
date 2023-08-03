@@ -27,4 +27,3 @@ print(my_string.find("e"))
 print(my_string.split())
 
 test: List[str] = ["Hello", "World"]
-

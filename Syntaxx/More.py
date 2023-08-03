@@ -16,4 +16,3 @@ and_bc = b & c
 or_bc = b | c
 # ! xor
 xor_bc = b ^ c
-
