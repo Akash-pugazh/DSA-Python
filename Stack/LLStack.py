@@ -30,5 +30,7 @@ class Stack:
             print("Stack is Empty")
             return
         else:
+            temp = self.top
             self.top = self.top.next
-        self.height -= 1
+            self.height -= 1
+            return temp
